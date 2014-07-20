@@ -1,0 +1,4 @@
+platform :ios, '7.0'
+
+pod 'Typhoon', '~>2.1.4'
+pod 'SOCKit', '1.1'

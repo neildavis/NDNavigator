@@ -1,0 +1,170 @@
+
+// To check if a library is compiled with CocoaPods you
+// can use the `COCOAPODS` macro definition which is
+// defined in the xcconfigs so it is available in
+// headers also when they are imported in the client
+// project.
+
+
+// SOCKit
+#define COCOAPODS_POD_AVAILABLE_SOCKit
+#define COCOAPODS_VERSION_MAJOR_SOCKit 1
+#define COCOAPODS_VERSION_MINOR_SOCKit 1
+#define COCOAPODS_VERSION_PATCH_SOCKit 0
+
+// Typhoon
+#define COCOAPODS_POD_AVAILABLE_Typhoon
+#define COCOAPODS_VERSION_MAJOR_Typhoon 2
+#define COCOAPODS_VERSION_MINOR_Typhoon 1
+#define COCOAPODS_VERSION_PATCH_Typhoon 4
+
+// Typhoon/Configuration
+#define COCOAPODS_POD_AVAILABLE_Typhoon_Configuration
+#define COCOAPODS_VERSION_MAJOR_Typhoon_Configuration 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_Configuration 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_Configuration 4
+
+// Typhoon/Configuration/ConfigPostProcessor
+#define COCOAPODS_POD_AVAILABLE_Typhoon_Configuration_ConfigPostProcessor
+#define COCOAPODS_VERSION_MAJOR_Typhoon_Configuration_ConfigPostProcessor 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_Configuration_ConfigPostProcessor 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_Configuration_ConfigPostProcessor 4
+
+// Typhoon/Configuration/DefinitionOptionConfiguration
+#define COCOAPODS_POD_AVAILABLE_Typhoon_Configuration_DefinitionOptionConfiguration
+#define COCOAPODS_VERSION_MAJOR_Typhoon_Configuration_DefinitionOptionConfiguration 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_Configuration_DefinitionOptionConfiguration 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_Configuration_DefinitionOptionConfiguration 4
+
+// Typhoon/Configuration/DefinitionOptionConfiguration/Factory
+#define COCOAPODS_POD_AVAILABLE_Typhoon_Configuration_DefinitionOptionConfiguration_Factory
+#define COCOAPODS_VERSION_MAJOR_Typhoon_Configuration_DefinitionOptionConfiguration_Factory 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_Configuration_DefinitionOptionConfiguration_Factory 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_Configuration_DefinitionOptionConfiguration_Factory 4
+
+// Typhoon/Configuration/Resource
+#define COCOAPODS_POD_AVAILABLE_Typhoon_Configuration_Resource
+#define COCOAPODS_VERSION_MAJOR_Typhoon_Configuration_Resource 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_Configuration_Resource 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_Configuration_Resource 4
+
+// Typhoon/Configuration/Startup
+#define COCOAPODS_POD_AVAILABLE_Typhoon_Configuration_Startup
+#define COCOAPODS_VERSION_MAJOR_Typhoon_Configuration_Startup 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_Configuration_Startup 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_Configuration_Startup 4
+
+// Typhoon/Definition
+#define COCOAPODS_POD_AVAILABLE_Typhoon_Definition
+#define COCOAPODS_VERSION_MAJOR_Typhoon_Definition 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_Definition 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_Definition 4
+
+// Typhoon/Definition/Injections
+#define COCOAPODS_POD_AVAILABLE_Typhoon_Definition_Injections
+#define COCOAPODS_VERSION_MAJOR_Typhoon_Definition_Injections 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_Definition_Injections 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_Definition_Injections 4
+
+// Typhoon/Definition/Internal
+#define COCOAPODS_POD_AVAILABLE_Typhoon_Definition_Internal
+#define COCOAPODS_VERSION_MAJOR_Typhoon_Definition_Internal 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_Definition_Internal 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_Definition_Internal 4
+
+// Typhoon/Definition/Method
+#define COCOAPODS_POD_AVAILABLE_Typhoon_Definition_Method
+#define COCOAPODS_VERSION_MAJOR_Typhoon_Definition_Method 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_Definition_Method 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_Definition_Method 4
+
+// Typhoon/Definition/Method/Internal
+#define COCOAPODS_POD_AVAILABLE_Typhoon_Definition_Method_Internal
+#define COCOAPODS_VERSION_MAJOR_Typhoon_Definition_Method_Internal 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_Definition_Method_Internal 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_Definition_Method_Internal 4
+
+// Typhoon/Factory
+#define COCOAPODS_POD_AVAILABLE_Typhoon_Factory
+#define COCOAPODS_VERSION_MAJOR_Typhoon_Factory 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_Factory 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_Factory 4
+
+// Typhoon/Factory/Block
+#define COCOAPODS_POD_AVAILABLE_Typhoon_Factory_Block
+#define COCOAPODS_VERSION_MAJOR_Typhoon_Factory_Block 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_Factory_Block 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_Factory_Block 4
+
+// Typhoon/Factory/Hooks
+#define COCOAPODS_POD_AVAILABLE_Typhoon_Factory_Hooks
+#define COCOAPODS_VERSION_MAJOR_Typhoon_Factory_Hooks 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_Factory_Hooks 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_Factory_Hooks 4
+
+// Typhoon/Factory/Internal
+#define COCOAPODS_POD_AVAILABLE_Typhoon_Factory_Internal
+#define COCOAPODS_VERSION_MAJOR_Typhoon_Factory_Internal 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_Factory_Internal 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_Factory_Internal 4
+
+// Typhoon/Factory/Pool
+#define COCOAPODS_POD_AVAILABLE_Typhoon_Factory_Pool
+#define COCOAPODS_VERSION_MAJOR_Typhoon_Factory_Pool 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_Factory_Pool 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_Factory_Pool 4
+
+// Typhoon/Test
+#define COCOAPODS_POD_AVAILABLE_Typhoon_Test
+#define COCOAPODS_VERSION_MAJOR_Typhoon_Test 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_Test 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_Test 4
+
+// Typhoon/TypeConversion
+#define COCOAPODS_POD_AVAILABLE_Typhoon_TypeConversion
+#define COCOAPODS_VERSION_MAJOR_Typhoon_TypeConversion 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_TypeConversion 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_TypeConversion 4
+
+// Typhoon/TypeConversion/Converters
+#define COCOAPODS_POD_AVAILABLE_Typhoon_TypeConversion_Converters
+#define COCOAPODS_VERSION_MAJOR_Typhoon_TypeConversion_Converters 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_TypeConversion_Converters 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_TypeConversion_Converters 4
+
+// Typhoon/Utils
+#define COCOAPODS_POD_AVAILABLE_Typhoon_Utils
+#define COCOAPODS_VERSION_MAJOR_Typhoon_Utils 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_Utils 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_Utils 4
+
+// Typhoon/ios
+#define COCOAPODS_POD_AVAILABLE_Typhoon_ios
+#define COCOAPODS_VERSION_MAJOR_Typhoon_ios 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_ios 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_ios 4
+
+// Typhoon/ios/Configuration
+#define COCOAPODS_POD_AVAILABLE_Typhoon_ios_Configuration
+#define COCOAPODS_VERSION_MAJOR_Typhoon_ios_Configuration 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_ios_Configuration 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_ios_Configuration 4
+
+// Typhoon/ios/Storyboard
+#define COCOAPODS_POD_AVAILABLE_Typhoon_ios_Storyboard
+#define COCOAPODS_VERSION_MAJOR_Typhoon_ios_Storyboard 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_ios_Storyboard 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_ios_Storyboard 4
+
+// Typhoon/ios/TypeConversion
+#define COCOAPODS_POD_AVAILABLE_Typhoon_ios_TypeConversion
+#define COCOAPODS_VERSION_MAJOR_Typhoon_ios_TypeConversion 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_ios_TypeConversion 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_ios_TypeConversion 4
+
+// Typhoon/no-arc
+#define COCOAPODS_POD_AVAILABLE_Typhoon_no_arc
+#define COCOAPODS_VERSION_MAJOR_Typhoon_no_arc 2
+#define COCOAPODS_VERSION_MINOR_Typhoon_no_arc 1
+#define COCOAPODS_VERSION_PATCH_Typhoon_no_arc 4
+
