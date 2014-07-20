@@ -76,9 +76,9 @@
 
 #pragma mark - UIViewController+NDNavigator
 
-- (void) willNavigateWithPathParamaters:(NSDictionary*)pathParams queryParameters:(NSDictionary*)queryParams;
+- (void) willNavigateWithPathParameters:(NSDictionary*)pathParams queryParameters:(NSDictionary*)queryParams;
 {
-    [super willNavigateWithPathParamaters:pathParams queryParameters:queryParams];
+    [super willNavigateWithPathParameters:pathParams queryParameters:queryParams];
     NSArray *newMsgId = queryParams[@"msgId"];
     NSArray *newMsgText = queryParams[@"msgText"];
     if (newMsgId && newMsgText)

@@ -56,12 +56,12 @@
                 // VC implments entry.willNavigateSelector - call it with path params
                 [entry.pathPattern performSelector:entry.willNavigateSelector onObject:vc sourceString:path];
             }
-            if ([vc respondsToSelector:@selector(willNavigateWithPathParamaters:queryParameters:)])
+            if ([vc respondsToSelector:@selector(willNavigateWithPathParameters:queryParameters:)])
             {
-                // VC implements UIViewController+NDNavigator.h - call willNavigateWithPathParamaters:queryParameters:
+                // VC implements UIViewController+NDNavigator.h - call willNavigateWithPathParameters:queryParameters:
                 NSDictionary *pathParams = (path && entry.pathPattern) ? [entry.pathPattern parameterDictionaryFromSourceString:path]: nil;
                 NSDictionary *queryParams = [url.query dictionaryFromQueryComponents];
-                [vc willNavigateWithPathParamaters:pathParams queryParameters:queryParams];
+                [vc willNavigateWithPathParameters:pathParams queryParameters:queryParams];
             }
             
             return vc;

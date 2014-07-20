@@ -24,7 +24,7 @@ static char kNavigationMapKey;
     objc_setAssociatedObject(self, &kNavigationMapKey, navigationMap, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
-- (void) willNavigateWithPathParamaters:(NSDictionary*)pathParams queryParameters:(NSDictionary*)queryParams
+- (void) willNavigateWithPathParameters:(NSDictionary*)pathParams queryParameters:(NSDictionary*)queryParams
 {
     
 }

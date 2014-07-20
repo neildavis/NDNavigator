@@ -19,7 +19,7 @@
  @param pathParams. A dictionary containing the parameters matched by the SOCPattern from the URL path. Nil if no path paramters were matched
  @param queryParameters. A dictionary of NSString->NSArray containg the URL query string paramters
  */
-- (void) willNavigateWithPathParamaters:(NSDictionary*)pathParams queryParameters:(NSDictionary*)queryParams;
+- (void) willNavigateWithPathParameters:(NSDictionary*)pathParams queryParameters:(NSDictionary*)queryParams;
 
 /**
  Helper utility to present a view controller from a URL
